@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+@import 'tailwindcss';
+:root { --rose:#f4a6b8; --deep:#e5798f; --blush:#fff5f7; --ink:#493940; --muted:#927c84; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--blush); color:var(--ink); font-family:'Nunito',sans-serif; }
+button,input { font:inherit; }
+button { cursor:pointer; }
+::-webkit-scrollbar { width:8px; } ::-webkit-scrollbar-thumb { background:#f0c9d1; border-radius:99px; }
